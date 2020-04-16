@@ -1,0 +1,41 @@
+{
+    "Create Vanilla JS Web Component": {
+        "prefix": "js-webcomponent",
+        "body": [
+          "const template = document.createElement('template');",
+          "template.innerHTML = `",
+          "<style>",
+          " :host { }",
+          " ::slotted(*) { }",
+          " .highlight {",
+          "   color: blue;",
+          " }",
+          "</style>",
+          "<div class=\"highlight\">Hello Web Component</div>",
+          "<slot></slot>",
+          "<slot name=\"input\" ></slot>",
+          "`;",
+          "",
+          "class ${1:Hello}Component extends HTMLElement {",
+          "   constructor() {",
+          "     super();",
+          "     this._shadowRoot = this.attachShadow({ mode:'open' });",
+          "   }",
+          "",
+          "   static get observedAttributes() {",
+          "     return [''];",
+          "   }",
+          "   ",
+          "   connectedCallback() {",
+          "     this._shadowRoot.appendChild(template.content.cloneNode(true));",
+          "   }",
+          "",
+          "   attributeChangedCallback(name, oldVal, newVal) {",
+          "   }",
+          "}",
+          "customElements.define('${2:vj-hello}', ${1:Hello}Component);",
+          ""
+        ],
+        "description": "Create Vanilla JS Web Component"
+    }
+}

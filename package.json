@@ -1,0 +1,32 @@
+{
+    "name": "js-web-component",
+    "displayName": "JS Web Component",
+    "description": "To generate code snippet for Vanilla JavaScript Web Component.",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "author": {
+        "name": "Srinivasan K K",
+        "email": "kksrini89@gmail.com",
+        "url": "https://srinivasankk.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "bugs": {
+        "url": ""
+    }
+}
