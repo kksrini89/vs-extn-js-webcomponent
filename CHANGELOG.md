@@ -3,4 +3,4 @@
 
 ## [1.0.0]
 
-- Initial release is to create quick javascript web component
+- Initial release is to create quick javascript ES6 Class based web component

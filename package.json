@@ -24,9 +24,9 @@
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/kksrini89/vs-extn-js-webcomponent.git"
     },
     "bugs": {
-        "url": ""
+        "url": "https://github.com/kksrini89/vs-extn-js-webcomponent/issues"
     }
 }

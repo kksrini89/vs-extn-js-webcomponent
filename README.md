@@ -4,7 +4,7 @@ This extension is to create ES6 Class based Vanilla JavaScript Web Component alo
 
 ## Features
 
-\!\[js-webcomponent\]\(images/screenshot.png\)
+![JS_Web_Component](images/screenshot.png)
 
 ## Requirements
 
