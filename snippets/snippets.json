@@ -37,5 +37,29 @@
           ""
         ],
         "description": "Create Vanilla JS Web Component"
+    },
+    "Life cycle hooks for Vanilla JS Web Component": {
+      "prefix": "js-wc-hooks",
+      "body": [
+        "connectedCallback() {",
+        "  // Will be triggered When your Web component is mounted into the DOM tree",
+        "  // Element References from the template",
+        "  // Best place to define Shadow DOM",
+        "  ${1:start from here}",
+        "}",
+        "",
+        "attributeChangedCallback(attributeName, oldValue, newValue) {",
+        "  // Will be triggered when the value is assigned from the template",
+        "}",
+        "",
+        "disconnectedCallback() {",
+        " // Will be triggered once your web component is destroyed/de-linked from where it's mounted.",
+        "}",
+        "",
+        "adoptedCallback() {",
+        "// Least bothered Since The first 3 would suffice for most use cases.",
+        "}"
+      ],
+      "description": "Life cycle hooks for Vanilla JS Web Component"
     }
 }
